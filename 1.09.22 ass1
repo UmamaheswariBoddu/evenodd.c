@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int main() 
+{ 
+int n; 
+printf("Enter a number"); 
+scanf("%d",&n); 
+if ( num%2 == 0 ) 
+printf("Even ", n);
+else 
+printf("Odd ", n); 
+return 0; 
+}
+______________________________
+Output:
+Enter a number 
+6
+Even
